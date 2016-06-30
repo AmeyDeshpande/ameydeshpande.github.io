@@ -9,7 +9,7 @@
 title: Amey Deshpande
 email: ameyadeshpande90@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  This site is under development. Will be up soon.
+  This site is under development.</br> Will be up soon.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://amey-deshpande.com" # the base hostname & protocol for your site
 twitter_username: 

@@ -1,0 +1,279 @@
+.container{
+		color : blue;
+		text-align : center;
+		background-color : white;
+		position: center;
+		margin: auto; 
+		margin : 0% 8% 0% 0%;
+		height:auto;
+		font-family : Oswald;
+		letter-spacing: 0.01em;
+		
+	}	
+	.header{		
+		height : 5%;
+		color : black;
+		padding-bottom:1%;	
+		font-weight:bold;
+	}
+	.name{		
+		float : left;
+		padding : 0.8% 0% 0% 5%;
+		font-size:300%;
+		color:#454548;
+		letter-spacing: 0em;
+		
+	}
+	body{
+		margin : 0%;
+	}
+	.tabs{		
+		margin:0%;
+		padding-left:5%;
+		width:500px;
+	}
+	.items{
+		padding:0%;
+		margin:0%;
+	}
+	.items > li{
+		font-size:1.3em;
+		position:relative;
+		background-color:#42659A;
+		list-style-type:none;
+		color:white;
+		float : left;
+		border-right: 0.5em solid white;
+		padding : 0.3% 1% 0.3% 1%; 
+	}
+	.items > li > a{
+		text-decoration : none;
+		color : white;
+		margin : 0%;
+		padding : 0%;
+	}
+	.items li:hover{
+		background-color:#454548;
+	}
+	.items li a:active{
+		background-color:black;
+	}
+	.sidebar{
+		width : 18%;
+		margin-left : 5%;
+	}
+	.sidebar-pic{
+		width : 150px;
+		height:150px;
+		margin-left : 4%;
+		margin-top : 2%;
+		float:left;
+	}
+	main-content{
+		float : left;
+	}
+	.clear{
+		clear:both;
+	}
+	img{
+		width:100px;
+		height:100px;
+		float:left;
+	}
+	#selected-tabs{
+		float:left;
+		padding : 0% 0% 0% 0%;
+		margin-left : 5%;
+		width:60%;
+	}
+	#tab-title{
+		color:#42659A;
+		padding-top : 0% !important;
+		text-align : left;
+		font-size : 200%;
+		text-decoration : underline;
+		float:center;
+		padding-bottom:10px;
+	}
+	#tab-title2{
+		color:#42659A;
+		padding-top : 0% !important;
+		text-align : left;
+		font-size : 200%;
+		text-decoration : underline;
+		float:left;
+		padding-bottom:10px;
+		margin:0% 0% 2% 32%;
+	}
+	#para{
+		color:#454548;
+		text-align : left;
+		float:center;
+		width:100 %;
+		float:left;		
+	}
+	.sidebar-projects{
+		width : 200px;
+		margin-left : 1.5%;
+		margin-top : 0%;
+		padding : 0%;
+		text-align : left;
+		float:left;
+	}
+	.sidebar-projects li{
+		font-size:1.3em;
+		position:relative;
+		color:#42659A;
+		padding : 0% 0% 0% 0%; 
+		background-color : white;
+		float : none;
+		padding-left: 0;
+		margin-bottom:2px;
+	}
+	.sidebar-projects li ul{
+		
+		margin-top : 3%;
+		margin-left: 13%;
+	}
+	.sidebar-projects li a{
+		color:#42659A;
+		text-decoration:underline;
+	}
+	.sidebar-projects li a:hover{
+		color:black ;
+		cursor: pointer;
+	}
+	#sidebar-title{
+		color:#454548;
+		list-style-type:none;
+	}
+	.side-bar{
+		width:10% ;
+		height:50%;
+		padding : 0 !important;
+		float:left;
+		margin-left:5%;
+		background-color:red;
+		align:center;
+	}
+	.side-img{
+		padding:0;
+		margin:0;
+	}
+	.exp{
+		margin-bottom:0;
+		width:100px;
+		float:left;
+	}	
+	hr{
+		background-color:red;
+	}
+	
+	.abt-me{
+		width:60%;
+	}
+	ul.topnav {
+		list-style-type: none;
+		margin: 0;
+		padding-left: 5%;
+		overflow: hidden;
+	}
+	.pro{
+		width:60%;
+		float:left;
+	}
+	
+	.exp-title{
+		text-decoration:underline;
+	}
+	
+	.skill-section{
+		width:30%;
+		float:left;
+		text-align:left;
+		margin:0% 2% 5% 0%;
+		
+	}
+	.skill-section-title{
+		font-size:1.5em;
+		color: #42659A;
+		padding-bottom:5px;
+		width:100%;
+	}
+	.skill-section-rest{
+		color: #454548;
+		text-align:left;
+	}
+	.skills{
+		margin-left:5%;
+		margin-right:0;
+	}
+	.contact-title{
+		color:#42659A;
+		text-decoration:underline;
+		font-size:2em;
+		text-align:left;
+		margin-left:5%;
+		margin-bottom:2%;
+	}
+	.info{
+		color:#454548;
+		text-align:left;
+		margin-left:5%;
+	}
+	.links{
+		margin-left:5%;
+	}
+	.links img{
+		height:40px;
+		width:40px;
+		margin-right:20px;
+	}
+
+/* Float the list items side by side */
+ul.topnav li {float: left;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+	background-color:#42659A;
+	margin-right: 10px;
+}
+
+ul.topnav li a:hover {background-color: #111;}
+
+ul.topnav li.icon {display: none;}
+
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: left;
+	margin-left:140px;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+

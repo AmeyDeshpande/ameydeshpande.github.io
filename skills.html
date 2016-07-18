@@ -18,20 +18,18 @@
 
 </head>
 	
-	
 <body>
 	<div class = "container">
 		<div class = "header"> 
 			<div class="name">Amey Deshpande</div>
 		</div>
 		<div class="clear"></div>
-
 		<div>
 			<ul class = "topnav">
 				<li><a href="index.html"> About me</a></li>
 				<li><a href="projects.html"> Projects </a></li>
 				<li><a href="experience.html"> Experience </a></li>
-				<li><a href="skills.html"> Skills </a></li>
+				<li><a href="skills.html">Skills</a></li>
 				<li><a href="contact.html"> Contact </a></li>
 				<li class="icon">
 					<a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
@@ -39,19 +37,55 @@
 			</ul>
 		</div>
 		<div class="clear"></div>
-		<hr/>
-		<div id = "selected-tabs" class="abt-me">
-			<div id="tab-title">About me</div>
-			<div id = "para">
-				<p>
-					Hello, I am Amey Deshpande. I am a master's student from Califorinia State University, Chico in Computer Science.
-				</p>
-				<p>My current GPA is 3.7/4.0 and expecting to finish my graduation in December 2016.</p>
-				<p>Currently I am looking for full time working opportunity in web-development, software development or QA Automation.</p>
-				
+		<hr>
+		<div class="skills">
+			<div class="skill-section">
+				<div class="skill-section-title">Programming Languages</div>
+				<ul class="skill-section-rest">
+					<li>C++</li>
+					<li>C</li>
+					<li>Java</li>
+					<li>Ruby</li>
+				</ul>
+			</div>
+			<div class="skill-section">
+				<div class="skill-section-title">Web Technologies</div>
+				<ul class="skill-section-rest">
+					<li>HTML, CSS</li>
+					<li>Python</li>
+					<li>.Net</li>
+					<li>Ruby</li>
+					<li>JavaScript, JQuery</li>
+				</ul>
+			</div>
+			<div class="skill-section">
+				<div class="skill-section-title">Frameworks</div>
+				<ul class="skill-section-rest">
+					<li>Visual studio</li>
+					<li>Eclipse</li>
+					<li>RubyMine</li>
+					<li>Selenium Web Driver</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+			<div class="skill-section">
+				<div class="skill-section-title">Database</div>
+				<ul class="skill-section-rest">
+					<li>Oracle</li>
+					<li>MySQL</li>
+					<li>RethinkDB</li>
+				</ul>
+			</div>
+			<div class="skill-section">
+				<div class="skill-section-title">Platform</div>
+				<ul class="skill-section-rest">
+					<li>Ubuntu</li>
+					<li>Unix</li>
+					<li>Windows</li>
+				</ul>
 			</div>
 		</div>
-	</div>
+	</div>	
 	<script>
 		function myFunction() {
 			document.getElementsByClassName("topnav")[0].classList.toggle("responsive");

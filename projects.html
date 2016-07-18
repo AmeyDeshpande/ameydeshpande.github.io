@@ -1,0 +1,106 @@
+<html>
+<head>
+	<title>Amey Deshpande</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu+Condensed" />
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oswald" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<!-- Bootstrap -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+</head>
+	
+	
+<body>
+	<div class = "container">
+		<div class = "header"> 
+			<div class="name">Amey Deshpande</div>
+		</div>
+		<div class="clear"></div>
+		<div>
+			<ul class = "topnav">
+				<li><a href="index.html"> About me</a></li>
+				<li><a href="projects.html"> Projects </a></li>
+				<li><a href="experience.html"> Experience </a></li>
+				<li><a href="skills.html"> Skills </a></li>
+				<li><a href="contact.html"> Contact </a></li>
+				<li class="icon">
+					<a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+				</li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+		<hr style="color:black;"/>
+		<div class="clear"></div>
+		<div class = "sidebar-projects">
+			<div>
+				<ul>
+					<li id = "sidebar-title"><h3>Project Title<h3></li>
+					<li id="pro1"><a>Gold Chase</a></li>
+					<li id="pro2"><a>String Substitution</a></li>
+					<li id="pro3"><a>University Student-Database</a></li>
+				<ul>
+			</div>
+		</div>
+		<div id = "selected-tabs" class="main-content">
+			<div id="tab-title">Gold Chase</div>
+			<div id = "para">
+				<div id="project1" style="display:block;">
+					<p>
+						This is multiplayer game developed in C++, with a use of shared memory and semaphores.</p>
+					<p>	With the use of signals players can communicate in themselves by sending messages to each other.</p>
+					<p>The most difficult part was to add sockets to my project, by adding that players from different system can play this game.</p>
+					
+					
+				</div>
+				<div id="project2" style="display:none;">
+					<p>
+						This is small project to replace a string from a file with the other string. This is an object oriented mini project developed in c++.
+					</p>
+					<p>The important challenge in this project was single read and single write for every character in the file.</p>
+					<p>And the other challenge was to use least possible buffer space. So, this project was developed with minimum space and time complexity.</p>
+					
+				</div>
+				<div id="project3" style="display:none;">
+					<p>
+						Simple HTML project created to use database 11g, which keeps and manipulates students and staff data.
+					</p>
+					<p>In this project, I got to SQL procedures and functions to manipulate de-normalized tables.</p>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" language="JavaScript">
+		function myFunction() {
+			document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+		}
+		document.getElementById("pro1").onclick = function(){
+			document.getElementById("project1").style.display="block";
+			document.getElementById("project2").style.display = "none";
+			document.getElementById("project3").style.display = "none";
+			document.getElementById("tab-title").innerHTML = "Gold Chase";
+		}
+		document.getElementById("pro2").onclick = function(){
+			document.getElementById("project2").style.display="block";
+			document.getElementById("project1").style.display = "none";
+			document.getElementById("project3").style.display = "none";
+			document.getElementById("tab-title").innerHTML = "String substitution";
+		}
+		document.getElementById("pro3").onclick = function(){
+			document.getElementById("project3").style.display="block";
+			document.getElementById("project1").style.display = "none";
+			document.getElementById("project2").style.display = "none";
+			document.getElementById("tab-title").innerHTML = "University student-database";
+		}
+	</script>
+</body>
+</html>

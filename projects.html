@@ -40,67 +40,71 @@
 		<div class="clear"></div>
 		<hr style="color:black;"/>
 		<div class="clear"></div>
-		<div class = "sidebar-projects">
-			<div>
-				<ul>
-					<li id = "sidebar-title"><h3>Project Title<h3></li>
-					<li id="pro1"><a>Gold Chase</a></li>
-					<li id="pro2"><a>String Substitution</a></li>
-					<li id="pro3"><a>University Student-Database</a></li>
-				<ul>
-			</div>
-		</div>
-		<div id = "selected-tabs" class="main-content">
+		<div style="margin-left:60px;">
 			<div id="tab-title">Gold Chase</div>
 			<div id = "para">
-				<div id="project1" style="display:block;">
+				<div id="project1">
 					<p>
-						This is multiplayer game developed in C++, with a use of shared memory and semaphores.</p>
-					<p>	With the use of signals players can communicate in themselves by sending messages to each other.</p>
-					<p>The most difficult part was to add sockets to my project, by adding that players from different system can play this game.</p>
+						• This is multiplayer game developed in C++, with a use of shared memory and semaphores.</p>
+					<p>	• With the use of signals players can communicate in themselves by sending messages to each other.</p>
+					<p>• The most difficult part was to add sockets to my project, by adding that players from different system can play this game.</p>
 					
-					
-				</div>
-				<div id="project2" style="display:none;">
-					<p>
-						This is small project to replace a string from a file with the other string. This is an object oriented mini project developed in c++.
-					</p>
-					<p>The important challenge in this project was single read and single write for every character in the file.</p>
-					<p>And the other challenge was to use least possible buffer space. So, this project was developed with minimum space and time complexity.</p>
-					
-				</div>
-				<div id="project3" style="display:none;">
-					<p>
-						Simple HTML project created to use database 11g, which keeps and manipulates students and staff data.
-					</p>
-					<p>In this project, I got to SQL procedures and functions to manipulate de-normalized tables.</p>
 					
 				</div>
 			</div>
-		</div>
+			<div class="clear"></div>
+			<div id="tab-title">DNS - Resolver</div>
+			<div id = "para">
+				<div id="project3">
+					<p>
+						• Reading hostnames from multiple files and stored in a queue. 
+					</p>
+					<p>• Multiple treads read hostnames from a queue and provide the IP of these hostnames. </p>
+					<p>• IP addresses are stored in an output file by threads.</p>
+					
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div id="tab-title">Post-It – Twitter-like Application in Ruby on Rails</div>
+			<div id = "para">
+				<div id="project3">
+					<p>
+						• Create, Update and delete user functionalities with the use of REST services 
+					</p>
+					<p>• Secured login provided to user</p>
+					<p>• User can post public message and one user follow other users to view the posts</p>
+					
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div id="tab-title">String Substitution</div>
+			<div id = "para">
+				<div id="project2">
+					<p>
+						• This is small project to replace a string from a file with the other string. This is an object oriented mini project developed in c++.
+					</p>
+					<p>• The important challenge in this project was single read and single write for every character in the file.</p>
+					<p>• And the other challenge was to use least possible buffer space. So, this project was developed with minimum space and time complexity.</p>
+					
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div id="tab-title">University student-database</div>
+			<div id = "para">
+				<div id="project3">
+					<p>
+						• Project is based on a whole database of a student in the university. 
+					</p>
+					<p>• Used Oracle database to manipulate data. </p>
+					<p>• Used SQL procedures and packages.</p>
+					
+				</div>
+			</div>
+			
+		</div>		
+			
+		
 	</div>
-	<script type="text/javascript" language="JavaScript">
-		function myFunction() {
-			document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
-		}
-		document.getElementById("pro1").onclick = function(){
-			document.getElementById("project1").style.display="block";
-			document.getElementById("project2").style.display = "none";
-			document.getElementById("project3").style.display = "none";
-			document.getElementById("tab-title").innerHTML = "Gold Chase";
-		}
-		document.getElementById("pro2").onclick = function(){
-			document.getElementById("project2").style.display="block";
-			document.getElementById("project1").style.display = "none";
-			document.getElementById("project3").style.display = "none";
-			document.getElementById("tab-title").innerHTML = "String substitution";
-		}
-		document.getElementById("pro3").onclick = function(){
-			document.getElementById("project3").style.display="block";
-			document.getElementById("project1").style.display = "none";
-			document.getElementById("project2").style.display = "none";
-			document.getElementById("tab-title").innerHTML = "University student-database";
-		}
-	</script>
+	
 </body>
 </html>

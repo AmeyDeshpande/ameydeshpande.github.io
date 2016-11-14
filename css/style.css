@@ -84,7 +84,7 @@
 		float:left;
 		padding : 0% 0% 0% 0%;
 		margin-left : 5%;
-		width:60%;
+		width:70%;
 	}
 	#tab-title{
 		color:#42659A;
@@ -228,6 +228,9 @@
 		height:40px;
 		width:40px;
 		margin-right:20px;
+	}
+	.pros{
+		margin-left:100px;
 	}
 
 /* Float the list items side by side */
